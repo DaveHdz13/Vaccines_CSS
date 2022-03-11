@@ -3,6 +3,10 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+:root {
+    --h1-titles: #48618C;
+    --p-color: #757575;
+}
 /* Navbar container */
 nav.navbar {
     background: hsl(0, 0%, 96%, 0.5);
@@ -48,11 +52,12 @@ div.intro {
 }
 div.intro h1{
     margin: 0 20px 20px 20px;
-    color: #48618C;
+    color: var(--h1-titles);
 }
 div.intro p{
     text-align: justify;
     margin: 0 20px 20px 20px;
+    color: var(--p-color);
 }
 /* Image size */
 div.img01 img {
@@ -70,6 +75,34 @@ div.vaccines img{
     height: 150px;
     width: 250px;
     opacity: 0.5;
+}
+/* Vaccine 1st Section */
+section h1 {
+    color: var(--h1-titles);
+}
+section p {
+    color: var(--p-color);
+}
+div.card-section {
+    margin: 10px 80px 10px 80px;
+}
+/* Cards */
+div.card {
+    margin: 10px;
+    border: none;
+}
+/* Icons */
+div.card .card-body i {
+    color: #7489DC;
+}
+/* Card Text */
+div.card .card-body h5 {
+    margin-top: 10px;
+    color: var(--h1-titles);
+}
+div.card .card-body p {
+    font-size: 0.8rem;
+    color: var(--p-color);
 }
 /* Footer */
 footer {
