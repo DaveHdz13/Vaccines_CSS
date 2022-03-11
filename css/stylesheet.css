@@ -111,13 +111,17 @@ div.card .card-body p {
 }
 /* Vaccine 2nd Section */
 div.col img {
-    width: 100%;
-    height: 100%;
+    width: 500px;
+    height: 350px;
     padding-right: 40px;
 }
 /* Accordion Icons */
 .accordion .accordion-item i {
     margin-right: 10px;
+}
+/* Vaccine 3 Secrtion */
+div.section03 {
+    margin-top: 40px;
 }
 /* Footer */
 footer {
