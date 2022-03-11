@@ -1,0 +1,80 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+/* Navbar container */
+nav.navbar {
+    background: hsl(0, 0%, 96%, 0.5);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/* Nav Logo */
+.navbar-brand img{
+    height: 100px;
+    width: 100px;
+}
+/* Navigation */
+div.navbar {
+    margin-right: 50px;
+}
+div.navbar ul.navbar-nav {
+    margin-right: 10px;
+    display: block;
+}
+div.navbar ul.navbar-nav li.nav-item {
+    display: inline;
+    padding-right: 15px;
+}
+div.navbar ul.navbar-nav li.nav-item a {
+    display: inline;
+    text-decoration-line: none;
+    color: #757575;
+}
+/* Button Style */
+button.btn-outline-success {
+    border: none;
+    background-color: #3232ff;
+    color: #fff;
+}
+/* Body Content */
+div.col {
+    padding: 0;
+}
+/* Text align */
+div.intro {
+    display: grid;
+    align-content: center;
+}
+div.intro h1{
+    margin: 0 20px 20px 20px;
+    color: #48618C;
+}
+div.intro p{
+    text-align: justify;
+    margin: 0 20px 20px 20px;
+}
+/* Image size */
+div.img01 img {
+    width: 100%;
+    height: 100%;
+}
+/* Vaccines Logos */
+div.vaccines {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+div.vaccines img{
+    height: 150px;
+    width: 250px;
+    opacity: 0.5;
+}
+/* Footer */
+footer {
+    background: #F0F5FF;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
