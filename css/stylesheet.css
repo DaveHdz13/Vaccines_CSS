@@ -121,7 +121,18 @@ div.col img {
 }
 /* Vaccine 3 Secrtion */
 div.section03 {
-    margin-top: 40px;
+    margin: 0;
+    padding-top: 50px;
+}
+/* Doctor Image */
+div.section03 img{
+    height: 100%;
+}
+/* Card Style */
+div.col div.one {
+    align-content: center;
+    align-items: center;
+    width: 200px;
 }
 /* Footer */
 footer {
@@ -129,4 +140,15 @@ footer {
     padding-top: 40px;
     padding-bottom: 60px;
 }
-
+/* Footer List */
+div.col ul {
+    list-style: none;
+    padding-left: 0;
+}
+div.col ul a{
+    text-decoration: none;
+    color: var(--p-color);
+}
+div.col-6 h2 {
+    color: var(--h1-titles);
+}
